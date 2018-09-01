@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Watar</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_demo">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="sed_ut_perspiciatis">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</string>
+    <string name="sed_ut_perspiciatisw">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium  </string>
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+
+    <string name="Watar">Watar</string>
+    <string name="Community">Community</string>
+    <string name="MyLibrary">My Library</string>
+    <string name="Recent">Recent</string>
+    <string name="Artist">Artis</string>
+    <string name="TrendingTracks">Trending Tracks</string>
+    <string name="ViewAll">View All</string>
+    <string name="NewAlbums">New Albums</string>
+    <string name="MusicAlbums">Music Albums</string>
+    <string name="Poetry">Poetry</string>
+    <string name="Songs">Songs</string>
+    <string name="PlayAll">Play All</string>
+    <string name="Genere">Genere</string>
+    <string name="AlbumName">Album Name</string>
+    <string name="Queue">Queue</string>
+    <string name="Dequeue">Dequeue</string>
+    <string name="Download">Download</string>
+    <string name="Addtoplaylist">Add to playlist</string>
+    <string name="AddtoQueue">Add to Queue</string>
+    <string name="GotoAlbum">Goto Album</string>
+    <string name="GotoLyrics">Goto Lyrics</string>
+    <string name="Createanewplaylist">Create a new playlist</string>
+    <string name="AddtoExistingplaylist">Add to Existing playlist</string>
+    <string name="PublicPrivate">Public / Private</string>
+    <string name="Title">Title</string>
+    <string name="Description">Add</string>
+    <string name="Add">Add</string>
+    <string name="MyFavorites">My Favorites</string>
+    <string name="MyDownload">My Download</string>
+    <string name="MyPlaylist">My Playlist</string>
+    <string name="Albums">Albums</string>
+    <string name="Artists">Artists</string>
+    <string name="Back">Back</string>
+    <string name="BookTheArtist">Book The Artist</string>
+    <string name="Tracks">Tracks</string>
+    <string name="Playlists">Playlists</string>
+    <string name="PlaylistsName">Playlists Name</string>
+    <string name="Minutes">Minutes</string>
+    <string name="Promotions">Promotions</string>
+    <string name="ActivePromotions">Active Promotions</string>
+    <string name="Code">Code</string>
+    <string name="Details">Details</string>
+    <string name="Validity">Validity</string>
+    <string name="FAQs">FAQs</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="Getintouchwithus">Get in touch with us</string>
+    <string name="FullName">Full Name</string>
+    <string name="enteryourfullname">Enter your full name</string>
+    <string name="Mobile">Mobile</string>
+    <string name="enteryourmobileno.">enter your mobile no.</string>
+    <string name="Email">Email</string>
+    <string name="enteryourmail.">enter your mail</string>
+    <string name="Comments">Comments</string>
+    <string name="Pleasetypecomments">Please type comments</string>
+    <string name="Submit.">Submit</string>
+    <string name="FAQsContactUs">FAQs / Contact Us</string>
+    <string name="Becomeafeaturedartist">Become a featured artist</string>
+    <string name="TypeofArt.">Type of Art</string>
+    <string name="profile">Profile</string>
+    <string name="NightMode">Night    Mode</string>
+    <string name="Becomeanartist">Become an artist</string>
+    <string name="Aboutus">About us</string>
+    <string name="Settings">Settings</string>
+    <string name="Logout">Logout</string>
+    <string name="Promo">Promo</string>
+    <string name="Setting">Setting</string>
+    <string name="PlaySettings">Play Settings</string>
+    <string name="PlaybackSeetings">Playback Seetings</string>
+    <string name="DownloadSettings">Download Settings</string>
+    <string name="EqualizerAndAudioQuality">Equalizer And Audio Quality</string>
+    <string name="Notification">Notification</string>
+    <string name="PushNotifications">Push Notifications</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_demodetaite">Demodetaite</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="enteryouremail">Enter email id</string>
+</resources>

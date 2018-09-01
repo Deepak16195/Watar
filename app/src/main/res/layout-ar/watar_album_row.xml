@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum=".35"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:src="@drawable/face2"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="left"
+                android:layout_height="80dp" />
+            <LinearLayout
+                android:layout_width="180dp"
+                android:orientation="vertical"
+                android:layout_weight=".25"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                    android:textSize="16dp"
+                    android:lines="1"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/tabl_backColor"
+                    android:text="Lorem Ipsum Dummy Text"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="left"
+                    android:weightSum="2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/tabl_backColor"
+                        android:id="@+id/txtArtistName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textSize="13dp"
+                        android:layout_weight="1"
+                        android:lines="1"
+                        android:text="SubTital"/>
+                    <TextView
+                        android:id="@+id/txtDuration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:textColor="@color/tabl_backColor"
+                        android:lines="1"
+                        android:layout_marginRight="100dp"
+                        android:textSize="13dp"
+                        android:layout_weight="1"
+                        android:text="3:34"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/btnPlay"
+                android:layout_width="20dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-60dp"
+                android:layout_weight=".1"
+                android:tint="@color/tabl_backColor"
+                android:src="@drawable/playbtn"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@color/tabl_backColor" />
+    </LinearLayout>
+
+</LinearLayout>

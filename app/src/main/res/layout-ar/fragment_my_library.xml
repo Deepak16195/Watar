@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.MyLibraryFragment"
+    android:background="@color/tabColor">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:scrollbars="none"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/cardview_dark_background"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstalbum">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:gravity="center"
+                android:padding="7dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_marginRight="120dp"
+                    android:textColor="@color/Textline"
+                    android:text="My Favorites"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/Textcolor"
+                    android:text="View All >"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview1"
+            android:scrollbars="none"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/cardview_dark_background"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/secandalbum">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:gravity="center"
+                android:padding="2dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_marginRight="120dp"
+                    android:textColor="@color/Textline"
+                    android:text="My Download"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/Textcolor"
+                    android:text="View All >"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview2"
+            android:scrollbars="none"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Playlist">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="5"
+
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:textSize="12dp"
+                        android:layout_marginRight="130dp"
+                        android:textColor="@color/Textcolor"
+                        android:text="My Playlist"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="80dp"
+                        android:textColor="@color/Textcolor"
+                        android:text="View All >"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview3"
+                android:scrollbars="none"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,4 @@
+#Sat Sep 01 15:42:07 IST 2018
+base.0=E\:\\deepaklive\\Watar\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

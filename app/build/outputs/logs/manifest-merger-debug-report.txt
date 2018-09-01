@@ -1,0 +1,278 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:2:1-83:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6927c03c1b045a1df58a742383976b19\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.irvingryan:verifycodeview:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\verifycodeview-1.1.0.aar\cfb51b9b0f04606227eebe0e2823712c\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\055369763eef0028f0425900413f5e5e\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5c798dc566d1d7a3248fe141975f34b7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\a0047bfb9f05890f9e80b59b7f475234\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\37cb06040bdeddc536266262f43e2aa9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\fa1d3b2d9544af0a56251dc4770bc4d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\826831d87c79392ccff662305383bf56\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d06644cf30a52b19d2ac37386f67ef56\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\expandable-layout-1.6.0.aar\6dac2c212d31807a306659b358e0baee\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\b69750e129cd09980fd5228915d48c1c\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\eaae67c7a2d90c6ed3d04f32a4a2ac45\AndroidManifest.xml:15:1-21:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\45414631c0a65d7080edf19e52975e29\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fdb11d97f76b4103aaac8bb32f9becab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\dfdfdda2ba5387d446d692de23dabeb1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\767509410620d0ad91602dafe675b610\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0e5f1cdfd5618a23e12491a394471f4e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\99d65c07576b9b72158be09931601dd8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\410dcd7362c10989c58a9d2b8d8cc5db\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\635a37192f3bad78defcd2ea82972d23\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\df38433cd57bc655b80feb97cfa8b6d0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\70593d0a1310b4a6017b404e7d694eab\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\027b9fbb8c2f553f1196ff51ea9dc38a\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:2:1-83:12
+	package
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:2:1-83:12
+		INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:2:1-83:12
+		INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:7:5-60
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:7:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:8:5-70
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:8:19-67
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.INTERNET
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:19:5-69
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:19:22-66
+application
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:21:5-81:19
+MERGED from [com.github.irvingryan:verifycodeview:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\verifycodeview-1.1.0.aar\cfb51b9b0f04606227eebe0e2823712c\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.irvingryan:verifycodeview:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\verifycodeview-1.1.0.aar\cfb51b9b0f04606227eebe0e2823712c\AndroidManifest.xml:11:5-15:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5c798dc566d1d7a3248fe141975f34b7\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5c798dc566d1d7a3248fe141975f34b7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\a0047bfb9f05890f9e80b59b7f475234\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\a0047bfb9f05890f9e80b59b7f475234\AndroidManifest.xml:9:5-20
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\expandable-layout-1.6.0.aar\6dac2c212d31807a306659b358e0baee\AndroidManifest.xml:12:5-20
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\expandable-layout-1.6.0.aar\6dac2c212d31807a306659b358e0baee\AndroidManifest.xml:12:5-20
+	android:supportsRtl
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:25:9-41
+	android:roundIcon
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:26:9-54
+	android:icon
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:24:9-43
+	android:allowBackup
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:28:9-40
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:22:9-49
+activity#com.watar.soft.watar.activity.First_page
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:31:9-41:25
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:32:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:31:19-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:34:16-40:34
+action#android.intent.action.MAIN
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:35:22-36:28
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:35:30-71
+category#android.intent.category.LAUNCHER
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:38:22-39:28
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:38:32-79
+activity#com.watar.soft.watar.activity.MainActivity
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:42:14-49:19
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:43:18-53
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:42:24-61
+activity#com.watar.soft.watar.activity.Login_page
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:52:9-53:50
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:53:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:52:19-54
+activity#com.watar.soft.watar.activity.Sing_up
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:54:9-55:50
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:55:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:54:19-51
+activity#com.watar.soft.watar.activity.HomeActivity
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:56:9-60:50
+	android:label
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:58:13-56
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:60:13-48
+	android:theme
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:59:13-44
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:57:13-50
+activity#com.watar.soft.watar.activity.demo
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:61:9-64:50
+	android:label
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:63:13-56
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:64:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:62:13-42
+activity#com.watar.soft.watar.activity.AlbumsActivity
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:65:9-66:50
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:66:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:65:19-58
+activity#com.watar.soft.watar.activity.DayNightActivity
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:67:9-68:50
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:68:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:67:19-60
+activity#com.watar.soft.watar.activity.MusicPlay
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:69:9-70:50
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:70:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:69:19-53
+activity#com.watar.soft.watar.activity.ArtistDeatils
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:71:9-72:50
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:72:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:71:19-57
+activity#com.watar.soft.watar.activity.Albums
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:73:9-74:50
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:74:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:73:19-50
+activity#com.watar.soft.watar.activity.ForgotPassword
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:75:9-76:50
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:76:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:75:19-58
+activity#com.watar.soft.watar.activity.ResetPassword
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:77:9-78:50
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:78:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:77:19-57
+activity#com.watar.soft.watar.activity.Queuelist
+ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:79:9-80:50
+	android:launchMode
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:80:13-48
+	android:name
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml:79:19-53
+uses-sdk
+INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6927c03c1b045a1df58a742383976b19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6927c03c1b045a1df58a742383976b19\AndroidManifest.xml:20:5-44
+MERGED from [com.github.irvingryan:verifycodeview:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\verifycodeview-1.1.0.aar\cfb51b9b0f04606227eebe0e2823712c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.irvingryan:verifycodeview:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\verifycodeview-1.1.0.aar\cfb51b9b0f04606227eebe0e2823712c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\055369763eef0028f0425900413f5e5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\055369763eef0028f0425900413f5e5e\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5c798dc566d1d7a3248fe141975f34b7\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5c798dc566d1d7a3248fe141975f34b7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\a0047bfb9f05890f9e80b59b7f475234\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\a0047bfb9f05890f9e80b59b7f475234\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\37cb06040bdeddc536266262f43e2aa9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\37cb06040bdeddc536266262f43e2aa9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\fa1d3b2d9544af0a56251dc4770bc4d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\fa1d3b2d9544af0a56251dc4770bc4d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\826831d87c79392ccff662305383bf56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\826831d87c79392ccff662305383bf56\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d06644cf30a52b19d2ac37386f67ef56\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d06644cf30a52b19d2ac37386f67ef56\AndroidManifest.xml:5:5-43
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\expandable-layout-1.6.0.aar\6dac2c212d31807a306659b358e0baee\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\expandable-layout-1.6.0.aar\6dac2c212d31807a306659b358e0baee\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\b69750e129cd09980fd5228915d48c1c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\b69750e129cd09980fd5228915d48c1c\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\eaae67c7a2d90c6ed3d04f32a4a2ac45\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\eaae67c7a2d90c6ed3d04f32a4a2ac45\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\45414631c0a65d7080edf19e52975e29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\45414631c0a65d7080edf19e52975e29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fdb11d97f76b4103aaac8bb32f9becab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fdb11d97f76b4103aaac8bb32f9becab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\dfdfdda2ba5387d446d692de23dabeb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\dfdfdda2ba5387d446d692de23dabeb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\767509410620d0ad91602dafe675b610\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\767509410620d0ad91602dafe675b610\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0e5f1cdfd5618a23e12491a394471f4e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0e5f1cdfd5618a23e12491a394471f4e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\99d65c07576b9b72158be09931601dd8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\99d65c07576b9b72158be09931601dd8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\410dcd7362c10989c58a9d2b8d8cc5db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\410dcd7362c10989c58a9d2b8d8cc5db\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\635a37192f3bad78defcd2ea82972d23\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\635a37192f3bad78defcd2ea82972d23\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\df38433cd57bc655b80feb97cfa8b6d0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\df38433cd57bc655b80feb97cfa8b6d0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\70593d0a1310b4a6017b404e7d694eab\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\70593d0a1310b4a6017b404e7d694eab\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\027b9fbb8c2f553f1196ff51ea9dc38a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\027b9fbb8c2f553f1196ff51ea9dc38a\AndroidManifest.xml:20:5-44
+INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+		ADDED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml
+		INJECTED from E:\deepaklive\Watar\app\src\main\AndroidManifest.xml

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#3d3e40</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="orange">#ff8200</color>
+    <color name="orangeDark">#f77000</color>
+    <color name="daynight_textColor">#ff8222</color>
+    <color name="switchColor">#BC2F1D</color>
+    <color name="tabColor">#FF48494B</color>
+    <color name="tabl_backColor">#FFFFFF</color>
+    <color name="horizontaLine">#FFFFFF</color>
+    <color name="cardview_dark_background">#FF48494B</color>
+</resources>

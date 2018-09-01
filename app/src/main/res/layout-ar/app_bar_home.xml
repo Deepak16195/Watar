@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent"
+    tools:context=".activity.HomeActivity"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.AppBarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:theme="@style/AppTheme.AppBarOverlay">-->
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:visibility="gone"
+            android:background="@color/white"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarnew"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            app:elevation="0dp"
+            android:translationZ="0.1dp"
+            app:theme="@style/AppTheme.PopupOverlay" >
+
+
+
+                <ImageView
+                    android:id="@+id/drable"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="start"
+                    app:srcCompat="@drawable/menu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:layout_centerInParent="true"
+                android:textSize="20dp"
+                android:textColor="@color/App_color"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_title" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="14dp"
+                    android:rotation="90"
+                    android:layout_gravity="end"
+                    app:srcCompat="@drawable/search" />
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        style="@style/MyTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tabColor"
+        app:tabMode="fixed"
+        android:padding="1dp"
+        android:singleLine="true"
+        app:tabPaddingStart="-10dp"
+        app:tabPaddingEnd="-10dp"
+        android:layout_gravity="center"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabSelectedTextColor="@color/colorAccent"
+        app:tabTextColor="@color/tabl_backColor"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Textcolor" />
+
+        <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+    </LinearLayout>
+    <!--<include layout="@layout/content_home" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+<!--</android.support.design.widget.CoordinatorLayout>-->
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:theme="@style/AppTheme_AppBarOverlay"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/toolbar"-->
+            <!--android:background="?attr/colorPrimary"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:popupTheme="@style/AppTheme_PopupOverlay"-->
+            <!--android:titleTextColor="0x106000c" />-->
+    <!--</android.support.design.widget.AppBarLayout>-->
+    <include layout="@layout/content_home" />
+</LinearLayout>

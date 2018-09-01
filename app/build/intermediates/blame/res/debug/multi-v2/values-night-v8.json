@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\deepaklive\\Watar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "E:\\deepaklive\\Watar\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "12,4,2,3,7,11,5,6,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "526,153,55,102,285,478,199,240,338,384,429",
+                        "endColumns": "60,45,46,50,52,47,40,44,45,44,48",
+                        "endOffsets": "582,194,97,148,333,521,235,280,379,424,473"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,161,207,254,305,358,406,447,492,538,583",
+                        "endColumns": "60,45,46,50,52,47,40,44,45,44,48",
+                        "endOffsets": "156,202,249,300,353,401,442,487,533,578,627"
+                    }
+                },
+                {
+                    "source": "E:\\deepaklive\\Watar\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "4,35,39,37,60,19,48,53,44,29,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "120,1445,1618,1537,2399,696,1901,2109,1786,1221,1044",
+                        "endLines": "10,35,42,37,65,23,51,57,46,33,27",
+                        "endColumns": "12,90,12,79,12,12,12,12,12,12,12",
+                        "endOffsets": "494,1531,1780,1612,2715,1038,2103,2356,1895,1439,1215"
+                    },
+                    "to": {
+                        "startLines": "13,20,21,25,26,32,37,41,46,49,54",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "632,1011,1101,1268,1347,1668,2009,2216,2468,2581,2804",
+                        "endLines": "19,20,24,25,31,36,40,45,48,53,56",
+                        "endColumns": "12,89,12,78,12,12,12,12,12,12,12",
+                        "endOffsets": "1006,1096,1263,1342,1663,2004,2211,2463,2576,2799,2975"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\055369763eef0028f0425900413f5e5e\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
+                    },
+                    "to": {
+                        "startLines": "57,58,59,60,61,62,63",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2980,3050,3134,3218,3314,3416,3518",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "3045,3129,3213,3309,3411,3513,3607"
+                    }
+                }
+            ]
+        }
+    ]
+}

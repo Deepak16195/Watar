@@ -1,0 +1,113 @@
+<resources>
+
+
+    <string name="app_name">وتر</string>
+    <string name="Watar">وتر</string>
+    <string name="Community">المجتمع</string>
+    <string name="MyLibrary">مكتبتي</string>
+    <string name="Recent">أحدث الأغاني</string>
+    <string name="Artist">الفنان</string>
+    <string name="TrendingTracks">التسجيلات الصوتية الدارجة</string>
+    <string name="ViewAll">استعراض الجميع</string>
+    <string name="NewAlbums">الألبومات الجديدة</string>
+    <string name="MusicAlbums">الألبومات الموسيقية</string>
+    <string name="Poetry">شعر</string>
+    <string name="Songs">أغاني</string>
+    <string name="PlayAll">تشغيل الجميع</string>
+    <string name="Genere">أنواع الموسيقى</string>
+    <string name="AlbumName">اسم الألبوم</string>
+    <string name="Queue">إضافة إلى القائمة</string>
+    <string name="Dequeue">إزالة من القائمة</string>
+    <string name="Download">تحميل</string>
+    <string name="Addtoplaylist">إضافة إلى قائمة التشغيل</string>
+    <string name="AddtoQueue">إضافة إلى القائمة</string>
+    <string name="GotoAlbum">الذهاب إلى الألبوم</string>
+    <string name="GotoLyrics">الذهاب إلى كلمات الأغاني</string>
+    <string name="Createanewplaylist">إنشاء قائمة تشغيل جديدة</string>
+    <string name="AddtoExistingplaylist">إضافة إلى قائمة تشغيل موجودة</string>
+    <string name="PublicPrivate">عام/ خاص</string>
+    <string name="Title">العنوان</string>
+    <string name="Description">الوصف</string>
+    <string name="Add">أضف</string>
+    <string name="MyFavorites">مفضلاتي</string>
+    <string name="MyDownload">الأغاني التي قمت بتحميلها</string>
+    <string name="MyPlaylist">قوائم التشغيل الخاصة بي</string>
+    <string name="Albums">الألبومات</string>
+    <string name="Artists">الفنانين</string>
+    <string name="Back">العودة</string>
+    <string name="BookTheArtist">حجز الفنان</string>
+    <string name="Tracks">التسجيلات الصوتية</string>
+    <string name="Playlists">قوائم التشغيل</string>
+    <string name="PlaylistsName">أسماء قوائم التشغيل</string>
+    <string name="Minutes">الدقائق</string>
+    <string name="Promotions">الإعلانات</string>
+    <string name="ActivePromotions">الإعلانات الفعالة</string>
+    <string name="Code">الرمز</string>
+    <string name="Details">التفاصيل</string>
+    <string name="Validity">الصلاحية</string>
+    <string name="FAQs">الأسئلة الشائعة</string>
+    <string name="ContactUs">اتصل بنا</string>
+    <string name="Getintouchwithus">تواصل معنا</string>
+    <string name="FullName">الاسم الكامل</string>
+    <string name="enteryourfullname">أدخل اسمك الكامل</string>
+    <string name="Mobile">الموبايل</string>
+    <string name="enteryourmobileno.">أدخل رقم موبايلك</string>
+    <string name="enteryouremail">أأدخل معرف البريد الإلكتروني</string>
+    <string name="Email">الايميل</string>
+    <string name="enteryourmail.">أدخل ايميلك</string>
+    <string name="Comments">التعليقات</string>
+    <string name="Pleasetypecomments">اكتب تعليقك</string>
+    <string name="Submit.">تسليم</string>
+    <string name="FAQsContactUs">الأسئلة الشائعة / تواصل معنا</string>
+    <string name="Becomeafeaturedartist">كن من الفنانين المميزين</string>
+    <string name="TypeofArt.">نوع الفن</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="NightMode">الوضع الليلي</string>
+    <string name="Becomeanartist">كن فنانا</string>
+    <string name="Aboutus">من نحن</string>
+    <string name="Announcements">إعلانات</string>
+    <string name="Promo">دعايات</string>
+    <string name="Settings">الضبط والإعدادات</string>
+    <string name="Logout">تسجيل الخروج</string>
+
+    <string name="Setting">الضبط والإعدادات</string>
+    <string name="PlaySettings">إعدادات التشغيل</string>
+    <string name="PlaybackSeetings">ضبط إعادة التشغيل</string>
+    <string name="DownloadSettings">إعدادات التحميل</string>
+    <string name="EqualizerAndAudioQuality">جودة موازن الصوت</string>
+    <string name="Notification">الإخطارات</string>
+    <string name="PushNotifications">دفع الإخطارات</string>
+    <string name="Selectoptions">اشر على الخيارات</string>
+    <string name="language">لغة </string>
+    <string name="Change">يتغيرون</string>
+    <string name="select_note">Select your language</string>
+    <string name="CANCEL">إلغاء</string>
+    <string name="English">الإنجليزية</string>
+    <string name="Arabic">عربى</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

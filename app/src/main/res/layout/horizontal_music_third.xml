@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="7dp"
+    card_view:cardBackgroundColor="@color/tabColor"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="130dp">
+
+
+        <LinearLayout
+            android:layout_width="95dp"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_width="95dp"
+                android:src="@drawable/fisrtsong"
+                android:scaleType="fitXY"
+                android:layout_height="100dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="song name.."
+            android:textColor="@color/colorAccent"
+            android:textSize="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:padding="1dp"
+            android:layout_height="15dp">
+
+            <TextView
+                android:layout_gravity="left"
+                android:textSize="8dp"
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="12 Tracks"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="Artist name"
+                android:textColor="@color/colorAccent"
+                android:textSize="8dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+

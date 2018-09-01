@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ArtistDeatils"
+    android:background="@color/tabColor"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.design.widget.AppBarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:visibility="gone"
+            android:background="@color/white"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarnew"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            app:elevation="0dp"
+            android:translationZ="0.1dp"
+            app:theme="@style/AppTheme.PopupOverlay" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="left"
+                    app:srcCompat="@drawable/ic_back" />
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:text="@string/app_name"
+                    android:textColor="@color/App_color"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="14dp"
+                    android:rotation="90"
+                    app:srcCompat="@drawable/search" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+   <!-- <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarnew"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="45dp"
+        android:background="@color/white"
+        app:elevation="0dp"
+        android:translationZ="0.1dp"
+        app:theme="@style/AppTheme.PopupOverlay" >
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:id="@+id/drable"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARTIST NAME"
+            android:textSize="17dp"
+            android:textColor="@color/App_color"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="15dp"
+            android:rotation="90"
+            android:layout_marginRight="30dp"
+            app:srcCompat="@drawable/search"/>
+
+
+    </android.support.v7.widget.Toolbar>-->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="242dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:background="@color/App_color"
+            android:gravity="bottom">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/face2" />
+
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/artistbg"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/dollar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/check_circle_outline" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/BookTheArtist"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:padding="12dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=" Brief Introduction"
+                android:textSize="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtBio"
+                android:layout_width="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/sed_ut_perspiciatis"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:background="@color/tabColor">
+
+        <RelativeLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstalbum"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:gravity="center"
+                android:padding="7dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_marginRight="120dp"
+
+                    android:text="@string/Albums"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="80dp"
+                    android:text="@string/ViewAll"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:background="@color/tabColor"
+            android:id="@+id/recyclerview1"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

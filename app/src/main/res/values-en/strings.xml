@@ -1,0 +1,107 @@
+<resources>
+
+
+
+    <string name="Watar">Watar</string>
+    <string name="Community">Community</string>
+    <string name="MyLibrary">My Library</string>
+    <string name="Recent">Recent</string>
+    <string name="Artist">Artis</string>
+    <string name="TrendingTracks">Trending Tracks</string>
+    <string name="ViewAll">View All</string>
+    <string name="NewAlbums">New Albums</string>
+    <string name="MusicAlbums">Music Albums</string>
+    <string name="Poetry">Poetry</string>
+    <string name="Songs">Songs</string>
+    <string name="PlayAll">Play All</string>
+    <string name="Genere">Genere</string>
+    <string name="AlbumName">Album Name</string>
+    <string name="Queue">Queue</string>
+    <string name="Dequeue">Dequeue</string>
+    <string name="Download">Download</string>
+    <string name="Addtoplaylist">Add to playlist</string>
+    <string name="AddtoQueue">Add to Queue</string>
+    <string name="GotoAlbum">Goto Album</string>
+    <string name="GotoLyrics">Goto Lyrics</string>
+    <string name="Createanewplaylist">Create a new playlist</string>
+    <string name="AddtoExistingplaylist">Add to Existing playlist</string>
+    <string name="PublicPrivate">Public / Private</string>
+    <string name="Title">Title</string>
+    <string name="Description">Add</string>
+    <string name="Add">Add</string>
+    <string name="MyFavorites">My Favorites</string>
+    <string name="MyDownload">My Download</string>
+    <string name="MyPlaylist">My Playlist</string>
+    <string name="Albums">Albums</string>
+    <string name="Artists">Artists</string>
+    <string name="Back">Back</string>
+    <string name="BookTheArtist">Book The Artist</string>
+    <string name="Tracks">Tracks</string>
+    <string name="Playlists">Playlists</string>
+    <string name="PlaylistsName">Playlists Name</string>
+    <string name="Minutes">Minutes</string>
+    <string name="Promotions">Promotions</string>
+    <string name="ActivePromotions">Active Promotions</string>
+    <string name="Code">Code</string>
+    <string name="Details">Details</string>
+    <string name="Validity">Validity</string>
+    <string name="FAQs">FAQs</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="Getintouchwithus">Get in touch with us</string>
+    <string name="FullName">Full Name</string>
+    <string name="enteryourfullname">Enter your full name</string>
+    <string name="Mobile">Mobile</string>
+    <string name="enteryourmobileno.">Enter your mobile no.</string>
+    <string name="enteryouremail">Enter email id</string>
+    <string name="Email">Email</string>
+    <string name="enteryourmail.">enter your mail</string>
+    <string name="Comments">Comments</string>
+    <string name="Pleasetypecomments">Please type comments</string>
+    <string name="Submit.">Submit</string>
+    <string name="FAQsContactUs">FAQs / Contact Us</string>
+    <string name="Becomeafeaturedartist">Become a featured artist</string>
+    <string name="TypeofArt.">Type of Art</string>
+    <string name="profile">Profile</string>
+    <string name="NightMode">Night    Mode</string>
+    <string name="Becomeanartist">Become an artist</string>
+    <string name="Announcements">Announcements</string>
+    <string name="Aboutus">About us</string>
+    <string name="Settings">Settings</string>
+    <string name="Logout">Logout</string>
+    <string name="Promo">Promo</string>
+    <string name="Setting">Setting</string>
+    <string name="PlaySettings">Play Settings</string>
+    <string name="PlaybackSeetings">Playback Seetings</string>
+    <string name="DownloadSettings">Download Settings</string>
+    <string name="EqualizerAndAudioQuality">Equalizer And Audio Quality</string>
+    <string name="Notification">Notification</string>
+    <string name="PushNotifications">Push Notifications</string>
+    <string name="Selectoptions">Select options</string>
+    <string name="language">language </string>
+    <string name="clickme">Click Me</string>
+    <string name="select_note">Select your language</string>
+    <string name="Change">Change</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="language_setting">Change Language</string>
+    <string name="English">English</string>
+    <string name="Arabic">Arabic</string>
+
+
+    <string-array name="lang_select">
+        <item>@string/English</item>
+        <item>@string/Arabic</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:contextClickable="true"
+    tools:context=".Fragment.SettingsFragment">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Textcolor" />
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:background="@color/App_color"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:textSize="13sp"
+                android:textColor="#848383"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/PlaySettings" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="15sp"
+                android:textColor="#848383"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PlaybackSeetings" />
+            <ImageView android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/rigtharrow"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View
+            android:background="#848383"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="15sp"
+                android:textColor="#848383"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/DownloadSettings" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/rigtharrow"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="#848383"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <RelativeLayout
+            android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="15sp"
+                android:textColor="#848383"
+                android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EqualizerAndAudioQuality" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/rigtharrow"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:background="@color/App_color"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:textSize="13sp"
+                android:textColor="#848383"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Notification" />
+        </LinearLayout>
+        <RelativeLayout
+            android:gravity="top"
+            android:layout_gravity="top"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="15sp"
+                android:textColor="#848383"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PushNotifications" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/rigtharrow"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="#848383"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+    </LinearLayout>
+</FrameLayout>

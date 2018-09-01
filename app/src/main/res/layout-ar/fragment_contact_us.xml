@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:contextClickable="true"
+    tools:context=".Fragment.ContactUsFragment">
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout android:id="@+id/faqs"
+                android:paddingTop="15dp"
+                android:layout_width="150dp"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+                <TextView
+                    android:textSize="18dp"
+                    android:textColor="#8e8d92"
+                    android:gravity="center"
+                    android:id="@+id/tv_faq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/FAQs" />
+                <TextView
+                    android:id="@+id/viewfaqs"
+                    android:background="#8e8d92"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_below="@+id/tv_faq" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/contactus"
+                android:paddingTop="15dp"
+                android:layout_width="150dp"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+                <TextView
+                    android:textSize="18dp"
+
+                    android:textColor="#1c1c24"
+                    android:gravity="center"
+                    android:id="@+id/tv_contactus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+
+                    android:text="@string/ContactUs" />
+                <TextView
+                    android:id="@+id/viewcontactus"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#1c1c24"
+                    android:layout_below="@+id/tv_contactus" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/ll_faqs"
+           android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="com.codeisall.expandablelayout.MainActivity">
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/expandableButton1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"
+                            android:drawableRight="@drawable/arrow_down"
+                            android:paddingRight="10dp"
+                            android:text="What Is Android"
+                            android:textColor="@color/App_color" />
+
+                        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                            android:id="@+id/expandableLayout1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:ael_expanded="false"
+                            app:ael_duration="400"
+                            app:ael_interpolator="accelerate"
+                            app:ael_orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/App_color"
+                                android:background="@color/Textline"
+                                android:padding="20dp"
+                                android:text="Things to put in the expandable layout" />
+                        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/Textcolor" />
+
+                        <Button
+                            android:id="@+id/expandableButton2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/expandableLayout1"
+                            android:background="#fff"
+                            android:drawableRight="@drawable/arrow_down"
+                            android:paddingRight="10dp"
+                            android:text="Android Permission Model"
+                            android:textColor="@color/App_color" />
+
+                        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                            android:id="@+id/expandableLayout2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:ael_expanded="false"
+                            app:ael_duration="400"
+                            app:ael_interpolator="accelerate"
+                            app:ael_orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/App_color"
+                                android:background="@color/Textline"
+                                android:padding="20dp"
+                                android:text="Android Permission Model designed for preventing unauthorized access by third party application.Android applications must declare which permission they require after installation. At a time of android application installation android system display list of permissions which is required to install the current application. The user must decide to install an application or not." />
+                        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/Textcolor" />
+                        <Button
+                            android:id="@+id/expandableButton3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/expandableLayout2"
+                            android:background="#fff"
+                            android:drawableRight="@drawable/arrow_down"
+                            android:paddingRight="10dp"
+                            android:text="Android Debug Bridge"
+                            android:textColor="@color/App_color" />
+
+                        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                            android:id="@+id/expandableLayout3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:ael_expanded="false"
+                            app:ael_duration="400"
+                            app:ael_interpolator="accelerate"
+                            app:ael_orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/App_color"
+                                android:background="@color/Textline"
+                                android:padding="20dp"
+                                android:text="With the help of android debug bridge we can communicate with an emulator or connected physical android device because Android Debug Bridge is a command line tool. Android Debug Bridge is also known as ADB. ADB architecture is like client-server architecture with three components." />
+                        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/Textcolor" />
+                        <Button
+                            android:id="@+id/expandableButton4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/expandableLayout3"
+                            android:background="#fff"
+                            android:drawableRight="@drawable/arrow_down"
+                            android:paddingRight="10dp"
+                            android:text="Open Handset Alliance"
+                            android:textColor="@color/App_color" />
+
+                        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                            android:id="@+id/expandableLayout4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:ael_expanded="false"
+                            app:ael_duration="400"
+                            app:ael_interpolator="accelerate"
+                            app:ael_orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/App_color"
+                                android:padding="20dp"
+                                android:background="@color/Textline"
+                                android:text="The Open Handset Alliance (OHA) was formed in November 2007. The OHA is a business alliance comprised of many of the largest and most successful mobile companies on the planet. Its members include chip makers, handset manufacturers, software developers, and service providers.The entire mobile supply chain is well represented." />
+                        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/Textcolor" />
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/ll_contactus"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/App_color"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:textSize="13sp"
+                android:textColor="#848383"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Getintouchwithus" />
+        </LinearLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+            <EditText
+                android:id="@+id/et_cntfullname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:textSize="13dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/FullName"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <EditText
+                android:id="@+id/et_cntmobile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/Mobile"
+                android:textSize="13dp"
+                android:inputType="number" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <EditText
+                android:id="@+id/et_cntemail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/Email"
+                android:textSize="13dp"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <EditText
+                android:id="@+id/et_cntcomments"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/Comments"
+                android:textSize="13dp"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:id="@+id/btn_submit"
+            android:background="#3d3e40"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/Submit." />
+    </LinearLayout>
+</LinearLayout>
+    </FrameLayout>

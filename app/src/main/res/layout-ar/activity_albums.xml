@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/App_color"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".activity.Albums">
+    <android.support.design.widget.AppBarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarnew"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        app:elevation="0dp"
+        android:translationZ="0.1dp"
+        app:theme="@style/AppTheme.PopupOverlay" >
+
+
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start"
+                android:rotation="180"
+                app:srcCompat="@drawable/ic_back" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/App_color"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="14dp"
+                android:rotation="90"
+                android:layout_gravity="end"
+
+                app:srcCompat="@drawable/search" />
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>
+
+    <!--   <android.support.v7.widget.Toolbar
+           android:id="@+id/toolbarnew"
+           android:layout_height="wrap_content"
+           android:layout_width="match_parent"
+           android:minHeight="45dp"
+           android:background="@color/white"
+           app:elevation="0dp"
+           android:layout_gravity="top"
+           android:translationZ="0.1dp"
+           app:theme="@style/AppTheme.PopupOverlay" >
+
+
+           <ImageView
+               android:layout_width="35dp"
+               android:layout_height="35dp"
+               android:id="@+id/drable"
+               android:layout_gravity="left"
+               android:layout_marginTop="15dp"
+               android:layout_marginLeft="30dp"
+               app:srcCompat="@drawable/menu"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/app_name"
+               android:textSize="20dp"
+               android:textColor="@color/App_color"
+               android:layout_gravity="center"
+               android:id="@+id/toolbar_title" />
+
+           <ImageView
+               android:layout_width="35dp"
+               android:layout_height="35dp"
+               android:layout_gravity="right"
+               android:layout_marginTop="15dp"
+               android:rotation="90"
+               android:layout_marginRight="30dp"
+               app:srcCompat="@drawable/search"/>
+
+
+       </android.support.v7.widget.Toolbar>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="match_parent"/>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/grid_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="auto_fit"
+        android:columnWidth="90dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:stretchMode="columnWidth" />
+
+
+    </LinearLayout>
+
+

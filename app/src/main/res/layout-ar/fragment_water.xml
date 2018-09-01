@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/mainfragments"
+    android:layout_height="fill_parent"
+    tools:context=".Fragment.WaterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/cardview_dark_background"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstalbum">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:gravity="center"
+                android:padding="7dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_marginRight="120dp"
+                    android:textColor="@color/Textline"
+                    android:text="@string/TrendingTracks"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/Textcolor"
+                    android:text="View All >"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview1"
+            android:scrollbars="none"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:background="@color/tabColor"
+
+            />
+
+
+
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+
+            <RelativeLayout
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/MusicAlbum">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="5"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:textSize="12dp"
+                        android:layout_marginRight="130dp"
+                        android:textColor="@color/Textcolor"
+                        android:text="Music Albums"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="80dp"
+                        android:textColor="@color/Textcolor"
+                        android:text="View All >"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview3"
+                android:scrollbars="none"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true" />
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+
+            <RelativeLayout
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Poetry">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="5"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:textSize="13dp"
+                        android:layout_marginRight="135dp"
+                        android:textColor="@color/Textcolor"
+                        android:text="Poetry"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:textSize="13dp"
+                        android:layout_marginLeft="80dp"
+                        android:textColor="@color/Textcolor"
+                        android:text="View All >"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview4"
+                android:scrollbars="none"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>-->
+
+    </LinearLayout>
+    <!--&lt;!&ndash; include bottom sheet &ndash;&gt;-->
+    <!--<include layout="@layout/bottom_music_play" />-->
+    </LinearLayout>
+
+</FrameLayout>
