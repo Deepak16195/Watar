@@ -41,8 +41,9 @@
 
                 <ImageView
                     android:id="@+id/btnBack"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    android:onClick="back"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
                     android:layout_gravity="left"
@@ -60,8 +61,8 @@
                     android:textSize="20dp" />
 
                 <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginEnd="14dp"

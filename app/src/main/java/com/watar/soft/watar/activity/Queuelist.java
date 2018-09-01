@@ -105,6 +105,10 @@ public class Queuelist extends AppCompatActivity {
         });
     }
 
+    public void back(View view){
+        super.onBackPressed();
+    }
+
 
     public void AddItemsToRecyclerViewArrayList(){
 

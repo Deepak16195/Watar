@@ -131,7 +131,7 @@
 
         <ImageView
             android:layout_width="40dp"
-            android:src="@drawable/plus"
+            android:src="@drawable/album"
             android:padding="7dp"
             android:layout_gravity="center"
             android:layout_height="35dp" />
@@ -158,7 +158,7 @@
 
         <ImageView
             android:layout_width="40dp"
-            android:src="@drawable/plus"
+            android:src="@drawable/layric"
             android:padding="7dp"
             android:layout_gravity="center"
             android:layout_height="35dp" />

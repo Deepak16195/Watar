@@ -83,6 +83,10 @@ public class AlbumsActivity extends AppCompatActivity {
 
     }
 
+    public void back(View view){
+        super.onBackPressed();
+    }
+
 
     //Check User Login
     private void getGenerByName() {

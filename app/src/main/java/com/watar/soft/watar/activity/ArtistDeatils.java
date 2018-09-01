@@ -82,6 +82,10 @@ public class ArtistDeatils extends AppCompatActivity {
         recyclerview1.setNestedScrollingEnabled(false);
     }
 
+    public void back(View view){
+        super.onBackPressed();
+    }
+
 
     //Check User Login
     private void getArtistDetails(int artistID) {

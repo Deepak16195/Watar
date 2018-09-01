@@ -60,6 +60,13 @@
                 android:text="12 Tracks"
                 android:textColor="@color/colorAccent"/>
 
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@color/tabl_backColor" />
+
             <TextView
                 android:id="@+id/txtArtistName"
                 android:layout_width="wrap_content"

@@ -104,6 +104,10 @@ public class Albums extends AppCompatActivity {
         imageAlbum = (ImageView) findViewById(R.id.imageAlbum);
     }
 
+    public void back(View view){
+        super.onBackPressed();
+    }
+
     //Check User Login
     private void getAlbum(int albumID) {
         Utils.showProgressDialog(Albums.this);

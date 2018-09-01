@@ -56,4 +56,8 @@ public class MusicPlay extends AppCompatActivity {
 
 
     }
+
+    public void back(View view){
+        super.onBackPressed();
+    }
 }

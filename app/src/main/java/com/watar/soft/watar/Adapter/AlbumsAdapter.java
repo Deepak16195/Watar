@@ -35,7 +35,7 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.ProductVie
     @Override
     public ProductViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.horizontal_album_secand, parent, false);
+                .inflate(R.layout.horizontal_album_show, parent, false);
         return new ProductViewHolder(itemView);
     }
 
